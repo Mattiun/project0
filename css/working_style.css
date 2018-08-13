@@ -5,3 +5,19 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
+@media (min-width: 500px) {
+  h1::before {
+    content: "A force of Nature!"
+  }
+}
+
+@media (max-width: 499px) {
+  h1::before {
+    content: "Charge!"
+  }
+}
+
+p {
+  text-align: center;
+}

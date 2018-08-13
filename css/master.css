@@ -18,6 +18,14 @@ h1 {
   background-color: green;
 }
 
+#navbary {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-color: #ff99bb;
+}
+
 .navlink {
   float: left;
 }
@@ -31,4 +39,8 @@ h1 {
 
 .navlink a:hover {
   background-color: gray;
+}
+
+main {
+  margin: 30px;
 }

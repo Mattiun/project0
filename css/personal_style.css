@@ -5,3 +5,34 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
+@media (min-width: 500px) {
+  h1::before {
+    content: "It's my life!"
+  }
+}
+
+@media (max-width: 499px) {
+  h1::before {
+    content: "Life!"
+  }
+}
+
+p {
+  text-align: center;
+}
+
+table {
+  border: 4px solid white;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 2px solid white;
+  padding: 10px;
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+}
