@@ -1,46 +1,38 @@
 h1 {
   text-align: center;
   color: white;
-  font-family: cursive;
-}
+  font-family: cursive; }
 
 .text {
   font-size: 20px;
   color: white;
-  font-family: sans-serif;
-}
+  font-family: sans-serif; }
 
 #navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow:hidden;
-  background-color: green;
-}
+  overflow: hidden;
+  background-color: green; }
 
 #navbary {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow:hidden;
-  background-color: #ff99bb;
-}
+  overflow: hidden;
+  background-color: #ff99bb; }
 
 .navlink {
-  float: left;
-}
+  float: left; }
 
 .navlink a {
   display: block;
   text-align: center;
   padding: 14px 15px;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .navlink a:hover {
-  background-color: gray;
-}
+  background-color: gray; }
 
 main {
-  margin: 30px;
-}
+  margin: 30px; }
