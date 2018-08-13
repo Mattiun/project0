@@ -8,31 +8,11 @@ h1 {
   color: white;
   font-family: sans-serif; }
 
-#navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+.navbar {
   background-color: green; }
 
-#navbary {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+.navbary {
   background-color: #ff99bb; }
-
-.navlink {
-  float: left; }
-
-.navlink a {
-  display: block;
-  text-align: center;
-  padding: 14px 15px;
-  text-decoration: none; }
-
-.navlink a:hover {
-  background-color: gray; }
 
 main {
   margin: 30px; }
